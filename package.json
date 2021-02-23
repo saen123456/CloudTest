@@ -1,0 +1,25 @@
+{
+  "name": "selected-python",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000C\u0000l\u0000o\u0000u\u0000d\u0000T\u0000e\u0000s\u0000t\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "python hellotest.py",
+    "serve": "nodemon hellotest.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saen123456/CloudTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saen123456/CloudTest/issues"
+  },
+  "homepage": "https://github.com/saen123456/CloudTest#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

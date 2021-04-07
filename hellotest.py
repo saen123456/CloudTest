@@ -1,10 +1,10 @@
 from flask import Flask, render_template
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
 
 
 @app.route('/')
 def Home():
-    return render_template("home.html")
+    return "นาย พิพัฒน์ อ่างแก้ว 6006021611216 IT_4RA"
 
 
 @app.route('/about')
@@ -24,4 +24,5 @@ def Welcome_name(name):
 
 if __name__ == '__main__':
     app.debug = True
-    app.run(host='0.0.0.0', port=88)
+    app.run(host='0.0.0.0', port=80)
+
